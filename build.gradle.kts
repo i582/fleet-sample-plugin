@@ -6,13 +6,13 @@ repositories {
 plugins {
     kotlin("jvm") version "1.8.0"
     `kotlin-dsl`
-    id("org.jetbrains.fleet-plugin") version "0.1.12"
+    id("org.jetbrains.fleet-plugin") version "0.1.20"
 }
 
 version = "0.1.0"
 
 fleet {
-    fleetVersion.set("1.16.7")
+    fleetVersion.set("1.16.22")
     useNightlyBuilds.set(true)
 
     // presentation
